@@ -2001,8 +2001,8 @@ class BigQueryClient(object):
         -----
         Results are undefined if a different value type is provided for a
         repeated field: E.g.
-        >>> { rfield: [ { x: 1}, {x: "a string"} ] } # undefined!
-        """
+        { rfield: [ { x: 1}, {x: "a string"} ] } # undefined!
+      
         from bigquery.schema_builder import schema_from_record
         return schema_from_record(record)
 © 2022 GitHub, Inc.
@@ -2014,6 +2014,6 @@ Docs
 Contact GitHub
 Pricing
 API
-Training
+Trainin
 Blog
 About
